@@ -1,5 +1,3 @@
-# Yegor Shvayuk
-## Contacts
 Шваюк Егор
 -----
 -----
