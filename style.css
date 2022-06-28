@@ -1,0 +1,124 @@
+body {
+    background-image: url('img/garrett-parker.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+.top-menu {
+    background: rgba(242, 120, 92, .7);
+    box-shadow: 3px 0 7px rgba(0, 0, 0, .3);
+    padding: 20px;
+}
+
+.top-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar-logo {
+    display: inline-block;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu-main li {
+    display: inline-block;
+}
+
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 61px;
+    padding-left: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    transition: .3s linear;
+}
+
+.menu-main a:before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: #F73E24;
+    position: absolute;
+    left: 50%;
+    transform: rotate(45deg) translateX(6.5px);
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.menu-main a:hover:before {
+    opacity: 1;
+}
+
+@media (max-width: 660px) {
+    .menu-main {
+        float: none;
+        padding-top: 20px;
+    }
+
+    .top-menu {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .menu-main a {
+        padding: 0 10px;
+    }
+
+    .menu-main a:before {
+        transform: rotate(45deg) translateX(-6px);
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-main li {
+        display: block;
+    }
+}
+#rectangle {
+    border: solid thick rgb(220, 220, 241);
+        border-radius: 1em;
+        border-width: 3px;
+        padding-left: 9px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin: 2px;
+        width: 980px;
+        height: 100px;
+}
+
+.button {
+    
+}
+
+.steps {
+    color: #F2785C;
+    text-align: center;
+}
+
+
